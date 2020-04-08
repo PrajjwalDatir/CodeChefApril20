@@ -1,4 +1,22 @@
 '''
+The final exam is tomorrow and Chef is one of the students who are going to take the exam.
+In the exam, there are K question forms. 
+Each form has N multiple-choice questions (numbered 1 through N). In each question,
+there are M possible answers (numbered 1 through M) and exactly one of those answers is correct.
+Chef will receive one of the K forms.
+Unfortunately, Chef was busy cooking, so he did not study. Instead, he broke into the university's database and
+stole the sheets containing the correct answers to the questions for all K forms. 
+Let's number the answer sheets 1 through K. For each valid i and j, 
+let's denote the correct answer to the i-th question in the j-th answer sheet by Ci,j. 
+The problem is that Chef cannot know which answer sheet contains 
+the correct answers for the form he receives during the exam. In addition,
+he can remember the answers to all questions in all answer sheets,
+but he cannot answer any questions based on his knowledge of the subjects in them.
+Help Chef choose the answers to his N questions in such a way that the worst-case (smallest possible)
+number of correctly answered questions is maximised.
+'''
+
+'''
 T denoting the number of test cases
 N , M , K where #N is total questions #M is the total options to each question #K is the number of sets
 C11 C12   #for K=2 N=4 M=2
