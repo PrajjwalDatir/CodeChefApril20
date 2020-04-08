@@ -1,3 +1,16 @@
+'''
+Chef owns N cars (numbered 1 through N). 
+He wishes to sell all of them over N years by selling exactly one car per year. 
+For each valid i, the initial price of the i-th car is Pi. Due to depreciation, 
+the price of each car decreases by 1 unit per year until it is sold.
+Note that the price of a car cannot drop below 0 no matter how many years have passed, 
+i.e. when the price of a car reaches 0 in some year, 
+it remains 0 in all subsequent years.
+
+Find the maximum profit Chef can make if he sells his cars in an optimal way. 
+Since this number may be large, compute it modulo 1,000,000,007 (109+7).
+'''
+
 # chef wants to Sell all the cars
 import sys
 
