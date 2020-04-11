@@ -22,7 +22,6 @@ int main(){
 		{
 			mul_arr[i] = abs(my_array[i]) % 4;
 		//cout << mul_arr[i];
-				  //0 case not handled
 		}
 		//cout << endl;
 		
@@ -59,6 +58,10 @@ int main(){
 						if (mul_arr[i] == 2){
 							cnt = cnt + N - i;
 							break;
+						}
+						if (mul_arr[i] == 0){
+							cnt = cnt + N - i;
+							break;	
 						}
 					}
 					break;
